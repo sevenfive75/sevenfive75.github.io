@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>七五大数据</title>
+</head>
+<style>
+     @font-face{
+        font-family: ziti;
+        src: url(chuchen.ttf);
+    }
+    *{
+        margin: 0px;
+        padding: 0px;
+        background: url(beijing.png);
+        background-size:cover;
+        background-attachment:fixed;
+    }
+    .box{
+        text-align: center;
+        padding-top: 8%;
+        font-size:40px;
+        font-family: ziti;
+        background: linear-gradient(to top, red, yellow);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    .sw{
+        color: black;
+        font-size: 25px;
+        font-family: ziti;
+        position: relative;
+        left: 10%;
+    }
+    .sx{
+        color: black;
+        font-size: 25px;
+        font-family: ziti;
+        position: relative;
+        left: 18%;
+    }
+    .continer{
+        color: black;
+        font-size: 25px;
+        font-family: ziti;
+        position: relative;
+        left: 28%;
+    }
+    .continer div {
+      display: none;      /*默认隐藏*/
+    }
+    .continer:hover div {
+      display: block;      /*当鼠标hover时展示*/
+    }
+    .jcsp{
+        height: 80px;
+        width: 200px;
+        background: white;
+        color: black;
+        position: absolute;
+        left: -50%;
+    }
+    .sp1{
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        font-size: 20px;
+        background: white;
+    }
+    .sp2{
+        position: absolute;
+        left: 0%;
+        top: 30%;
+        font-size: 20px;
+        background: white;
+    }
+    .sp3{
+        position: absolute;
+        left: 0%;
+        top: 65%;
+        font-size: 20px;
+        background: white;
+    }
+</style>
+<body>
+    <div class="box">七五大数据</div>
+    <text class="sw" onclick="window.location.href='https://pai6.hitecloud.cn/teacher/filemanager'">七下生物课件</text>
+    <text class="sx" onclick="window.location.href='https://www.aliyundrive.com/drive/'">数学视频</text>
+    <text class="continer">
+        精彩视频
+        <div class="jcsp">
+            <text class="sp1" onclick="window.location.href='school.mp4'">·school</text>
+            <text class="sp2" onclick="window.location.href='school2.mp4'">·school1</text>
+            <text class="sp3" onclick="window.location.href='日本.mp4'">·日本</text>
+        </div>
+    </text>    
+</body>
+</html>
